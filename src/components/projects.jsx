@@ -16,22 +16,22 @@ const Projects = () => {
         {
             name:'SunLight',
             photo: project2,
-            link:'https://gega-jikuridze.github.io/YT/'
+            link:'https://gega-jikuridze.github.io/SunLight/'
         },
         {
             name:'Panto',
             photo: project3,
-            link:'https://gega-jikuridze.github.io/YT/'
+            link:'https://gega-jikuridze.github.io/Panto/'
         },
         {
             name:'Tattoo Studio',
             photo: project4,
-            link:'https://gega-jikuridze.github.io/YT/'
+            link:'https://gega-jikuridze.github.io/Tattoo-studio/'
         },
         {
             name:'ecommerce',
             photo: project5,
-            link:'https://gega-jikuridze.github.io/YT/'
+            link:'https://gega-jikuridze.github.io/New-Project-Ecommerce/'
         },
         {
             name:'Atelier',
@@ -43,8 +43,8 @@ const Projects = () => {
 
     return <div className="projects container">
         {projects.map((el, index) => (
-            <a href={el.link} key={index}>
-                <img src={el.photo} alt="" />
+            <a href={el.link} key={index} target="_blank" rel="noreferrer">
+                <img src={el.photo} alt="Project" />
                 <h1>{el.name}</h1>
             </a>
         ))}
