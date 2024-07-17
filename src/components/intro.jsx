@@ -40,18 +40,18 @@ const Intro = () => {
           <div className="intro-img"></div>
         </div>
         <div className="intro-links">
-          <Link>
+          <a href="https://www.linkedin.com/in/gega-jikuridze-3a7907312/" target="_blank" rel="noreferrer">
             <i className="bx bxl-linkedin"></i>
-          </Link>
-          <Link>
+            </a>
+          <a href="https://github.com/Gega-Jikuridze" target="_blank" rel="noreferrer">
             <i className="bx bxl-github"></i>
-          </Link>
-          <Link>
+            </a>
+         <a href="https://www.facebook.com/profile.php?id=61559886003059" target="_blank" rel="noreferrer">
             <i className="bx bxl-facebook-circle"></i>
-          </Link>
-          <Link>
+            </a>
+        <a href="https://www.instagram.com/gega.jikuridze/?igsh=cW1yN3o1MjV3amx5" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
-          </Link>
+            </a>
         </div>
       </div>
     </div>
