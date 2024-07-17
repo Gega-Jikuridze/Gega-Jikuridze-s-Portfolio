@@ -32,14 +32,14 @@ const Skills = () => {
 
   return (
     <div className="skills container">
-      {skills.map((el) => (
-        <>
-          <div className="skill">
+      {skills.map((el, index) => (
+        
+          <div className="skill" key={index}>
             <h1>{el.skill}</h1>
             <h4>{el.progress}%</h4>
             <div className="progress" style={{width:`${el.progress}%`}}></div>
           </div>
-        </>
+        
       ))}
     </div>
   );

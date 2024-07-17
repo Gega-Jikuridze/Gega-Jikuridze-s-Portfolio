@@ -644,8 +644,20 @@ footer{
     width: 100%;
   }
 
-  .certificates{
-    display: none;
+  .certificates-images{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certificates-images a{
+    display: flex;
+    justify-content: center;
+  }
+
+  .certificates-images img{
+    width: 80%;
   }
 
   .about-me-text{
