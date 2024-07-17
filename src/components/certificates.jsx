@@ -1,6 +1,7 @@
 import certificate1 from "../assets/certificate.jpg";
 import certificate2 from "../assets/crtfct.png";
 
+
 const Certificates = () => {
   return (
     <div className="certificates">
