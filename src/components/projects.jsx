@@ -29,7 +29,7 @@ const Projects = () => {
             link:'https://gega-jikuridze.github.io/Tattoo-studio/'
         },
         {
-            name:'ecommerce',
+            name:'ecomerce',
             photo: project5,
             link:'https://gega-jikuridze.github.io/New-Project-Ecommerce/'
         },
